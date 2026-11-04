@@ -10,10 +10,10 @@
     {
       "name": "dataverse-toolkit",
       "source": "./plugins/dataverse-toolkit",
-      "description": "Audit/log capacity measurement, pre-PR solution sync, and silent-failure checklists for new Dataverse components.",
-      "version": "0.1.0",
+      "description": "10 skills for Dynamics 365 / Dataverse / Power Automate work: pre-PR solution sync, new-component and plugin-registration checks, flow standards, environment compare, integration reconciliation, import RCA, UAT plans, log capacity and Azure DevOps status.",
+      "version": "0.2.0",
       "category": "development",
-      "keywords": ["dynamics-365", "dataverse", "power-platform", "pac", "crm"]
+      "keywords": ["dynamics-365", "dataverse", "power-platform", "power-automate", "azure-devops", "pac", "crm"]
     }
   ]
 }
