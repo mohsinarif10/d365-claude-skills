@@ -1,0 +1,19 @@
+{
+  "name": "d365-claude-skills",
+  "owner": {
+    "name": "Mohsin Arif"
+  },
+  "metadata": {
+    "description": "Field-tested Claude Code skills for Dynamics 365 / Dataverse / Power Platform developers."
+  },
+  "plugins": [
+    {
+      "name": "dataverse-toolkit",
+      "source": "./plugins/dataverse-toolkit",
+      "description": "Audit/log capacity measurement, pre-PR solution sync, and silent-failure checklists for new Dataverse components.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": ["dynamics-365", "dataverse", "power-platform", "pac", "crm"]
+    }
+  ]
+}
