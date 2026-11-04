@@ -1,7 +1,9 @@
 {
   "name": "dataverse-toolkit",
   "description": "10 skills for Dynamics 365 / Dataverse / Power Automate work: pre-PR solution sync, new-component and plugin-registration checks, flow standards, environment compare, integration reconciliation, import RCA, UAT plans, log capacity and Azure DevOps status.",
-  "version": "0.2.0",
+  "version": "0.2.1",
+  "homepage": "https://github.com/mohsinarif10/d365-claude-skills",
+  "repository": "https://github.com/mohsinarif10/d365-claude-skills",
   "author": {
     "name": "Mohsin Arif"
   },

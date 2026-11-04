@@ -1,6 +1,6 @@
 ---
 name: dataverse-plugin-registration-audit
-description: Audit what plugin steps are actually registered in a live Dataverse environment - builds a plugin x table x message matrix from sdkmessageprocessingsteps, compares it with source control and across sibling tables, and explains each gap. Use when a plugin "doesn't fire", behaves differently between environments, a new table joins a family of similar tables, or before claiming a step is or isn't registered.
+description: Use whenever a Dynamics 365 / Dataverse plugin doesn't fire, fires on create but not update, runs twice, sees old values, or works in dev but not in test/UAT/prod. Audits which plugin steps are actually registered in the live environment (sdkmessageprocessingsteps - stage, mode, filtering attributes, images, enabled), compares with source control and across sibling tables, and explains each gap. Also use before claiming a plugin step is or isn't registered.
 ---
 
 # Plugin registration audit
