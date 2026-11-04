@@ -53,9 +53,8 @@ For a whole team, add it to the repo's `.claude/settings.json` so everyone gets 
 
 ### Claude.ai / Claude Desktop
 
-1. Download this repo (**Code → Download ZIP**) and unzip it.
-2. Zip **one** skill folder, e.g. `plugins/dataverse-toolkit/skills/dataverse-pre-pr`.
-3. In Claude: **Settings → Capabilities → Skills → Upload skill** and pick that zip.
+1. Open the [latest release](https://github.com/mohsinarif10/d365-claude-skills/releases/latest) and download the zip for the skill you want (one zip per skill).
+2. In Claude: **Settings → Capabilities → Skills → Upload skill** and pick that zip — don't unzip it.
 
 Skills that run scripts or `pac`/`az` commands need Claude Code, because they work against your local machine and environments.
 
